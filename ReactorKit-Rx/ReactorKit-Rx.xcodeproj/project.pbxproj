@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C26E32A03E7841A63D52189F /* Pods_ReactorKit_Rx.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3360593C8DF06408ECB1AA0D /* Pods_ReactorKit_Rx.framework */; };
+		E91E4D5327B93C0000E7C80B /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E4D5227B93C0000E7C80B /* CustomImageView.swift */; };
+		E91E4D5527B93C7900E7C80B /* DefaultReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91E4D5427B93C7900E7C80B /* DefaultReactor.swift */; };
 		E9EEFEAA27B78ABC00B65CC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEFEA927B78ABC00B65CC7 /* AppDelegate.swift */; };
 		E9EEFEAC27B78ABC00B65CC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEFEAB27B78ABC00B65CC7 /* SceneDelegate.swift */; };
 		E9EEFEAE27B78ABC00B65CC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9EEFEAD27B78ABC00B65CC7 /* ViewController.swift */; };
@@ -20,6 +22,8 @@
 		1254D100C7537CD29F67B97D /* Pods-ReactorKit-Rx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKit-Rx.debug.xcconfig"; path = "Target Support Files/Pods-ReactorKit-Rx/Pods-ReactorKit-Rx.debug.xcconfig"; sourceTree = "<group>"; };
 		3360593C8DF06408ECB1AA0D /* Pods_ReactorKit_Rx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactorKit_Rx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1080DC62A25D0814730F125 /* Pods-ReactorKit-Rx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKit-Rx.release.xcconfig"; path = "Target Support Files/Pods-ReactorKit-Rx/Pods-ReactorKit-Rx.release.xcconfig"; sourceTree = "<group>"; };
+		E91E4D5227B93C0000E7C80B /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		E91E4D5427B93C7900E7C80B /* DefaultReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultReactor.swift; sourceTree = "<group>"; };
 		E9EEFEA627B78ABC00B65CC7 /* ReactorKit-Rx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactorKit-Rx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9EEFEA927B78ABC00B65CC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9EEFEAB27B78ABC00B65CC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				E9EEFEBD27B78B8200B65CC7 /* AppDelegate */,
 				E9EEFEBE27B78B8900B65CC7 /* Resources */,
 				E9EEFEAD27B78ABC00B65CC7 /* ViewController.swift */,
+				E91E4D5227B93C0000E7C80B /* CustomImageView.swift */,
+				E91E4D5427B93C7900E7C80B /* DefaultReactor.swift */,
 			);
 			path = "ReactorKit-Rx";
 			sourceTree = "<group>";
@@ -223,6 +229,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9EEFEAE27B78ABC00B65CC7 /* ViewController.swift in Sources */,
+				E91E4D5527B93C7900E7C80B /* DefaultReactor.swift in Sources */,
+				E91E4D5327B93C0000E7C80B /* CustomImageView.swift in Sources */,
 				E9EEFEAA27B78ABC00B65CC7 /* AppDelegate.swift in Sources */,
 				E9EEFEAC27B78ABC00B65CC7 /* SceneDelegate.swift in Sources */,
 			);
