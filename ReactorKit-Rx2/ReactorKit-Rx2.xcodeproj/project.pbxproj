@@ -14,6 +14,7 @@
 		E9F43BD927BA339800B774B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F43BD727BA339800B774B6 /* Main.storyboard */; };
 		E9F43BDB27BA339A00B774B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9F43BDA27BA339A00B774B6 /* Assets.xcassets */; };
 		E9F43BDE27BA339A00B774B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9F43BDC27BA339A00B774B6 /* LaunchScreen.storyboard */; };
+		E9F43BE827BA394F00B774B6 /* DefaultReactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F43BE727BA394F00B774B6 /* DefaultReactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		E9F43BDA27BA339A00B774B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9F43BDD27BA339A00B774B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9F43BDF27BA339A00B774B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9F43BE727BA394F00B774B6 /* DefaultReactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultReactor.swift; sourceTree = "<group>"; };
 		F0EFB68B391FE9CA2A0E99CC /* Pods-ReactorKit-Rx2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactorKit-Rx2.release.xcconfig"; path = "Target Support Files/Pods-ReactorKit-Rx2/Pods-ReactorKit-Rx2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +50,6 @@
 				07FAE74AC2D0699CC867DF9C /* Pods-ReactorKit-Rx2.debug.xcconfig */,
 				F0EFB68B391FE9CA2A0E99CC /* Pods-ReactorKit-Rx2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -84,6 +85,7 @@
 				E9F43BE527BA33A100B774B6 /* AppDelegate */,
 				E9F43BE627BA33A700B774B6 /* Resources */,
 				E9F43BD527BA339800B774B6 /* ViewController.swift */,
+				E9F43BE727BA394F00B774B6 /* DefaultReactor.swift */,
 			);
 			path = "ReactorKit-Rx2";
 			sourceTree = "<group>";
@@ -223,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F43BE827BA394F00B774B6 /* DefaultReactor.swift in Sources */,
 				E9F43BD627BA339800B774B6 /* ViewController.swift in Sources */,
 				E9F43BD227BA339800B774B6 /* AppDelegate.swift in Sources */,
 				E9F43BD427BA339800B774B6 /* SceneDelegate.swift in Sources */,
