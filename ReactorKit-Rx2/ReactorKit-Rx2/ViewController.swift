@@ -6,8 +6,12 @@
 //
 
 import UIKit
+import RxSwift
+import RxCocoa
+import ReactorKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, View {
+    var disposeBag = DisposeBag()
     
     let countLabel: UILabel = {
         let label = UILabel()
@@ -50,7 +54,25 @@ class ViewController: UIViewController {
         plusButton.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
         plusButton.leadingAnchor.constraint(equalTo: self.view.centerXAnchor, constant: 50).isActive = true
     }
-
-
+    
+    func bind(reactor: DefaultReactor) {
+        minusButton.rx.tap
+            .map { Reactor.Action.decrease }
+            .bind(to: reactor.action)
+            .disposed(by: disposeBag)
+        
+        plusButton.rx.tap
+            .map { Reactor.Action.increase}
+            .bind(to: reactor.action)
+            .disposed(by: disposeBag)
+        
+        reactor.state
+            .map { $0.count }
+            .distinctUntilChanged()
+            .map { "\($0)" }
+            .bind(to: countLabel.rx.text)
+            .disposed(by: disposeBag)
+    }
+    
 }
 
